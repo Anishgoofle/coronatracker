@@ -1,6 +1,7 @@
 # Corona-Tracker
 A web application designed using Material UI, Reactjs, Chartjs and Axios
 
+![](src/Images/coronaScrnsht.png)
 
 
 ## Installation
