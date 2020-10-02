@@ -15,7 +15,7 @@ const Chart = ({ data, country }) => {
   }, []);
 
   const lineChart =
-    dailyData.length !== 0 ? (
+    dailyData && dailyData.length !== 0 ? (
       <Line
         data={{
           labels: dailyData.map(({ date }) => date),
